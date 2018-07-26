@@ -1,0 +1,30 @@
+{
+  "name": "simpletask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitasenko/simpletask.git"
+  },
+  "author": "Nikita Senko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikitasenko/simpletask/issues"
+  },
+  "homepage": "https://github.com/nikitasenko/simpletask#readme",
+  "dependencies": {
+    "blob": "0.0.4",
+    "config": "^1.31.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.18.3",
+    "pdfkit": "^0.8.3",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1",
+    "sequelize": "^4.38.0"
+  }
+}

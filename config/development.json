@@ -1,0 +1,39 @@
+{
+  "server": {
+    "port": 3011,
+    "cors": {
+      "preflightMaxAge": 5,
+      "origins": [
+        "*"
+      ],
+      "allowHeaders": [
+        "accept",
+        "accept-version",
+        "content-type",
+        "api-version",
+        "origin",
+        "x-requested-with",
+        "authorization",
+        "api_key"
+      ],
+      "exposeHeaders": [
+        "accept",
+        "accept-version",
+        "content-type",
+        "api-version",
+        "origin",
+        "x-requested-with",
+        "authorization",
+        "api_key"
+      ]
+    }
+  },
+  "db": {
+    "connectionLimit": 100,
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "root",
+    "database": "taskdb"
+  },
+  "env": "development"
+}
